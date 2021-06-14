@@ -1,0 +1,36 @@
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media only screen and  (max-width: 56.26em) { //900px
+        font-size: 56.25%;
+      }
+
+      @media only screen and (max-width: 75em) { //1200px
+        font-size: 50%;
+      }
+
+      @media only screen and (min-width: 112.5em) { //1800px
+        font-size: 75%;
+      }
+}
+
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    line-height: 1.6rem;
+}

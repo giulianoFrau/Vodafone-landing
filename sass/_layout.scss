@@ -1,0 +1,165 @@
+.margin-small {
+  margin-top: 2rem;
+}
+
+.margin-bottom {
+  margin-bottom: 7rem;
+}
+
+.logo-vodafone {
+  height: 3.5rem;
+}
+
+.logo-prezzogiusto {
+  height: 3.5rem;
+}
+
+.background {
+  padding-top: 2%;
+  padding-left: 15%;
+  background-image: url("../img/bg-desk.jpeg");
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 57vh;
+
+  @media only screen and (max-width: 100em) {
+    background-image: url("../img/bg-mobile.jpeg");
+  }
+}
+
+.header1 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  color: white;
+}
+.fibra {
+  height: 3rem;
+}
+
+.header2 {
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+
+.checkbox {
+  font-size: 1.1rem;
+  text-transform: none;
+}
+
+.offerta-soggetta {
+  text-align: center;
+  background-color: #f1ece8;
+
+  &__testo {
+    font-size: 2rem;
+    color: #666;
+    padding: 0.5rem;
+  }
+  &__icona {
+    height: 1.5rem;
+  }
+}
+
+.dettagli {
+  padding-top: 2rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #3c3c3c;
+  &__over {
+    color: #666;
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 4rem;
+  }
+}
+
+.card {
+  @media only screen and (max-width: 100em) {
+    width: 50rem;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  border-radius: 15%;
+  width: 30rem;
+  height: 32rem;
+  margin-right: 1rem;
+  padding: 2%;
+
+  &__icone {
+    width: 10rem;
+    padding: 5%;
+  }
+
+  &__titolo {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  &__testo {
+    font-size: 2rem;
+  }
+}
+
+.aiuto {
+  padding: 2%;
+  margin-top: 5rem;
+  height: auto;
+  width: 100%;
+  background-color: #3f0205;
+  color: white;
+
+  &__titolo {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  &__over {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+#checkbox2 {
+  color: #ffffff;
+  text-align: left;
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+
+.footer {
+  padding: 2%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #666;
+}
+
+.mediaquery1 {
+  @media only screen and (max-width: 100em) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.mediaquery {
+  @media only screen and (max-width: 100em) {
+  text-align: center;
+}
+}
+
+.mediaquery2 {
+  @media only screen and (max-width: 100em) {
+ display: flex;
+ flex-direction: column;
+}
+}
