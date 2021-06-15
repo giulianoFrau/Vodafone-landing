@@ -9,7 +9,6 @@
   margin-bottom: 7rem;
 }
 
-
 .logo-vodafone {
   height: 3.5rem;
 }
@@ -20,8 +19,8 @@
 
 .background {
   padding-top: 2%;
+  padding-right: 5rem;
   background-image: url("../img/bg-desk.jpeg");
-  background-size: cover;
   margin-top: 1.5rem;
   width: 100%;
   height: 65vh;
@@ -71,7 +70,6 @@ li {
 
 .checkbox {
   font-size: 1rem;
-
 }
 
 .offerta-soggetta {
@@ -103,7 +101,7 @@ li {
   }
 }
 
-.card {
+.cards{
   @media only screen and (max-width: 100em) {
     width: 50rem;
     height: auto;
@@ -114,14 +112,18 @@ li {
     justify-content: center;
     align-content: flex-start;
   }
-  box-shadow: 0px 2px 22px -2px rgba(0,0,0,0.80);
+  box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.18);
   border-radius: 1rem;
   width: 29%;
   height: 26rem;
   padding: 2%;
+  border:1px solid white;
+  background-color: white;
 
-  &__icone { 
-    width: 8rem; 
+  
+
+  &__icone {
+    width: 8rem;
     padding: 5%;
   }
 
@@ -143,7 +145,8 @@ li {
   background-color: #3f0205;
   color: white;
 
-  &__titolo , &__over {
+  &__titolo,
+  &__over {
     font-size: 2.08rem;
     font-weight: 800;
   }
@@ -159,39 +162,13 @@ li {
   padding: 1.3%;
   font-size: 1.3rem;
   font-weight: 400;
-  color: #666; 
+  color: #666;
 }
 
-
-.border{
+.border {
   box-sizing: border-box;
   background-color: white;
 }
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .mediaquery1 {
   @media only screen and (max-width: 100em) {
@@ -212,5 +189,3 @@ li {
     flex-direction: column;
   }
 }
-
-
