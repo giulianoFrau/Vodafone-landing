@@ -48,19 +48,19 @@ body {
     .background {
       background-image: url("../img/bg-mobile.jpeg"); } }
 
-.header1 {
-  font-size: 3.2rem;
-  text-transform: uppercase;
+.header__box {
   color: white; }
+  .header__box__scritta1 {
+    font-size: 2.2rem;
+    text-transform: uppercase; }
+  .header__box__scritta2 {
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    color: white;
+    text-transform: none; }
 
 .fibra {
   height: 3rem; }
-
-.header2 {
-  margin-top: 2rem;
-  font-size: 2.2rem;
-  color: white;
-  text-transform: none; }
 
 ul {
   text-transform: uppercase;
