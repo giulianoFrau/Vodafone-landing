@@ -18,6 +18,7 @@
   padding-top: 2%;
   padding-left: 15%;
   background-image: url("../img/bg-desk.jpeg");
+  background-size: cover;
   margin-top: 1.5rem;
   width: 100%;
   height: 57vh;
@@ -29,7 +30,7 @@
 
 .header__box {
   color: white;
-  padding-left: 5rem; 
+  padding-left: 5rem;
 
   &__scritta1 {
     font-size: 2.5rem;
@@ -43,7 +44,7 @@
   }
   &__scritta2 {
     margin-top: 2rem;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: white;
     text-transform: none;
     &__p {
@@ -57,25 +58,26 @@
 ul {
   text-transform: uppercase;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-top: 0.8rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 li {
   margin-bottom: 0.8rem;
 }
 
 .checkbox {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: none;
 }
 
 .offerta-soggetta {
   text-align: center;
   background-color: #f1ece8;
+  margin-top: -3rem;
 
   &__testo {
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: #666;
     padding: 0.5rem;
   }
@@ -85,16 +87,16 @@ li {
 }
 
 .dettagli {
-  padding-top: 2rem;
-  font-size: 3rem;
+  padding-top: 1.5rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1.2;
   color: #3c3c3c;
   &__over {
     color: #666;
-    font-size: 3rem;
-    font-weight: 200;
+    font-size: 2rem;
+    font-weight: 400;
     margin-bottom: 4rem;
   }
 }
@@ -110,25 +112,24 @@ li {
     justify-content: center;
     align-content: flex-start;
   }
-
-  border-radius: 15%;
-  width: 30rem;
-  height: 32rem;
-  margin-right: 1rem;
+  box-shadow: 0px 2px 22px -2px rgba(0,0,0,0.80);
+  border-radius: 1rem;
+  width: 29%;
+  height: 26rem;
   padding: 2%;
 
-  &__icone {
-    width: 10rem;
+  &__icone { 
+    width: 8rem; 
     padding: 5%;
   }
 
   &__titolo {
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
   }
   &__testo {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 

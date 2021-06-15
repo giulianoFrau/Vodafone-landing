@@ -23,7 +23,8 @@ html {
 body {
   font-family: 'Open Sans',sans-serif;
   font-weight: 400;
-  line-height: 1.6rem; }
+  line-height: 1.6rem;
+  color: #666; }
 
 .margin-small {
   margin-top: 2rem; }
@@ -41,6 +42,7 @@ body {
   padding-top: 2%;
   padding-left: 15%;
   background-image: url("../img/bg-desk.jpeg");
+  background-size: cover;
   margin-top: 1.5rem;
   width: 100%;
   height: 57vh; }
@@ -60,7 +62,7 @@ body {
       font-weight: 800; }
   .header__box__scritta2 {
     margin-top: 2rem;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: white;
     text-transform: none; }
     .header__box__scritta2__p {
@@ -72,45 +74,46 @@ body {
 ul {
   text-transform: uppercase;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-top: 0.8rem;
-  font-weight: 800; }
+  font-weight: 700; }
 
 li {
   margin-bottom: 0.8rem; }
 
 .checkbox {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: none; }
 
 .offerta-soggetta {
   text-align: center;
-  background-color: #f1ece8; }
+  background-color: #f1ece8;
+  margin-top: -3rem; }
   .offerta-soggetta__testo {
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: #666;
     padding: 0.5rem; }
   .offerta-soggetta__icona {
     height: 1.5rem; }
 
 .dettagli {
-  padding-top: 2rem;
-  font-size: 3rem;
+  padding-top: 1.5rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1.2;
   color: #3c3c3c; }
   .dettagli__over {
     color: #666;
-    font-size: 3rem;
-    font-weight: 200;
+    font-size: 2rem;
+    font-weight: 400;
     margin-bottom: 4rem; }
 
 .card {
-  border-radius: 15%;
-  width: 30rem;
-  height: 32rem;
-  margin-right: 1rem;
+  box-shadow: 0px 2px 22px -2px rgba(0, 0, 0, 0.8);
+  border-radius: 1rem;
+  width: 29%;
+  height: 26rem;
   padding: 2%; }
   @media only screen and (max-width: 100em) {
     .card {
@@ -123,14 +126,14 @@ li {
       justify-content: center;
       align-content: flex-start; } }
   .card__icone {
-    width: 10rem;
+    width: 8rem;
     padding: 5%; }
   .card__titolo {
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800; }
   .card__testo {
-    font-size: 2rem; }
+    font-size: 1.7rem; }
 
 .aiuto {
   padding: 2%;
@@ -175,7 +178,7 @@ li {
 .numero {
   height: 4rem !important;
   text-align: center;
-  font-size: 2rem !important; }
+  font-size: 1.5rem !important; }
 
 .button-numero {
   height: 4rem !important;
