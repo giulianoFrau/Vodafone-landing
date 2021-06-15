@@ -39,16 +39,15 @@ body {
   height: 3.5rem; }
 
 .logo-prezzogiusto {
-  height: 3.5rem; }
+  height: 3.1rem; }
 
 .background {
   padding-top: 2%;
-  padding-left: 15%;
   background-image: url("../img/bg-desk.jpeg");
   background-size: cover;
   margin-top: 1.5rem;
   width: 100%;
-  height: 57vh; }
+  height: 65vh; }
   @media only screen and (max-width: 100em) {
     .background {
       background-image: url("../img/bg-mobile.jpeg"); } }
@@ -85,8 +84,7 @@ li {
   margin-bottom: 0.8rem; }
 
 .checkbox {
-  font-size: 1rem;
-  text-transform: none; }
+  font-size: 1rem; }
 
 .offerta-soggetta {
   text-align: center;
@@ -155,8 +153,8 @@ li {
   font-size: 1.5rem; }
 
 .footer {
-  padding: 2%;
-  font-size: 1.6rem;
+  padding: 1.3%;
+  font-size: 1.3rem;
   font-weight: 400;
   color: #666; }
 
@@ -179,25 +177,23 @@ li {
     flex-direction: column; } }
 
 .numero {
-  height: 4rem !important;
+  height: 4.8rem !important;
   text-align: center;
-  font-size: 1.5rem !important; }
+  font-size: 1.8rem !important;
+  border-radius: 6px !important; }
+
+.button {
+  height: 4.8rem !important;
+  color: white !important;
+  font-size: 1.8rem !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  margin-left: -1.5rem; }
 
 .button-numero {
-  height: 4rem !important;
   background-color: #428600 !important;
-  border-color: #428600 !important;
-  color: white !important;
-  font-size: 1.5rem !important; }
-
-.numero2 {
-  text-align: center;
-  font-size: 2.5rem !important;
-  width: 10px; }
+  border-color: #428600 !important; }
 
 .button-numero2 {
-  width: 80%;
   background-color: #fdca2e !important;
-  border-color: #fdca2e !important;
-  color: white !important;
-  font-size: 2.5rem !important; }
+  border-color: #fdca2e !important; }
