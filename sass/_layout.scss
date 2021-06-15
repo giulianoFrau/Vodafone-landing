@@ -115,7 +115,7 @@ li {
     margin-top: 2rem;
     border-radius: 10%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: flex-start;
   }
@@ -214,23 +214,25 @@ li {
 
 
 
-.querycards {
+
+
+
+
+
+
+
+.querycards__icone {
   @media only screen and (max-width: 100em) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 20%;
+
   }
-  &__icone {
-    @media only screen and (max-width: 100em) {
-      height: 100%;
-      width: 20%;
-    }
+}
+.querycards__align {
+  @media only screen and (max-width: 100em) {
+text-align: left; 
   }
-  &__align {
-    @media only screen and (max-width: 100em) {
-      width: 100%;
-      text-align: left;
-      display: block;
-    }
-  }
+
 }
