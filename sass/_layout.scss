@@ -90,14 +90,13 @@ li {
   padding-top: 1.5rem;
   font-size: 2.8rem;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.2;
-  color: #3c3c3c;
   &__over {
     color: #666;
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -135,19 +134,15 @@ li {
 
 .aiuto {
   padding: 2%;
-  margin-top: 5rem;
+  margin-top: 2rem;
   height: auto;
   width: 100%;
   background-color: #3f0205;
   color: white;
 
-  &__titolo {
-    font-size: 3rem;
-    font-weight: 700;
-  }
-  &__over {
-    font-size: 3rem;
-    font-weight: 700;
+  &__titolo , &__over {
+    font-size: 2.08rem;
+    font-weight: 800;
   }
 }
 #checkbox2 {
@@ -163,6 +158,37 @@ li {
   font-weight: 400;
   color: #666;
 }
+
+
+.border{
+  box-sizing: border-box;
+  background-color: white;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .mediaquery1 {
   @media only screen and (max-width: 100em) {
@@ -183,3 +209,5 @@ li {
     flex-direction: column;
   }
 }
+
+
