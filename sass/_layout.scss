@@ -27,17 +27,15 @@
   background-image: url("../img/bg-desk.jpeg");
 
   width: 100%;
-  height: 65vh; 
+  height: 65vh;
 
   @media only screen and (max-width: 85em) {
     background-image: url("../img/bg-mobile.jpeg");
-  
   }
   @media only screen and (max-width: 56em) {
     height: 50vh;
   }
 }
-
 
 .header__box {
   color: white;
@@ -89,7 +87,7 @@ li {
   &__testo {
     font-size: 1.4rem;
     color: #666;
-    padding: .8rem;
+    padding: 0.8rem;
   }
   &__icona {
     height: 1.5rem;
@@ -177,7 +175,6 @@ li {
   background-color: white;
 }
 
-
 //MEDIAQUERY
 
 .mediaqueryTextCenter {
@@ -185,24 +182,20 @@ li {
     text-align: center;
   }
 }
-.form-control{
+.form-control {
   @media only screen and (max-width: 100em) {
-   width: 100%;
-   display: block;
-
+    width: 100%;
+    display: block;
   }
 }
-
 
 .mediaqueryConvertForm {
   @media only screen and (max-width: 100em) {
-   display: flex;
-   flex-direction: column;
-   align-items: center; 
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
-
 
 .mediaqueryConvertColumn {
   @media only screen and (max-width: 50em) {
@@ -211,11 +204,33 @@ li {
   }
 }
 
-
-
 .mediaquery2 {
   @media only screen and (max-width: 100em) {
     display: flex;
     flex-direction: column;
+  }
+}
+
+
+
+
+.querycards {
+  @media only screen and (max-width: 100em) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__icone {
+    @media only screen and (max-width: 100em) {
+      height: 100%;
+      width: 20%;
+    }
+  }
+  &__align {
+    @media only screen and (max-width: 100em) {
+      width: 100%;
+      text-align: left;
+      display: block;
+    }
   }
 }

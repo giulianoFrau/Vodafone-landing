@@ -98,7 +98,7 @@ li {
   .offerta-soggetta__testo {
     font-size: 1.4rem;
     color: #666;
-    padding: .8rem; }
+    padding: 0.8rem; }
   .offerta-soggetta__icona {
     height: 1.5rem; }
 
@@ -193,6 +193,23 @@ li {
   .mediaquery2 {
     display: flex;
     flex-direction: column; } }
+
+@media only screen and (max-width: 100em) {
+  .querycards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; } }
+
+@media only screen and (max-width: 100em) {
+  .querycards__icone {
+    height: 100%;
+    width: 20%; } }
+
+@media only screen and (max-width: 100em) {
+  .querycards__align {
+    width: 100%;
+    text-align: left;
+    display: block; } }
 
 .numero {
   height: 4.8rem !important;
