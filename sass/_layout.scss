@@ -29,26 +29,40 @@
 
 .header__box {
   color: white;
-
+  padding-left: 5rem; 
 
   &__scritta1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
+
+    &__sub {
+      margin-top: -1.5rem;
+      font-size: 3rem;
+      font-weight: 800;
+    }
   }
   &__scritta2 {
     margin-top: 2rem;
     font-size: 2.2rem;
     color: white;
     text-transform: none;
+    &__p {
+      margin-top: -2rem;
+    }
   }
 }
 .fibra {
-  height: 3rem;  
+  height: 3rem;
 }
 ul {
   text-transform: uppercase;
   list-style: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+  font-weight: 800;
+}
+li {
+  margin-bottom: 0.8rem;
 }
 
 .checkbox {
