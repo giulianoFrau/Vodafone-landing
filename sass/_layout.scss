@@ -107,7 +107,7 @@ li {
 
 .cards {
   @media only screen and (max-width: 100em) {
-    width: 50rem;
+    width: 100%;
     height: auto;
     margin-top: 2rem;
     border-radius: 10%;
@@ -172,18 +172,41 @@ li {
   background-color: white;
 }
 
-.mediaquery1 {
+
+//MEDIAQUERY
+
+.mediaqueryTextCenter {
   @media only screen and (max-width: 100em) {
+    text-align: center;
+  }
+}
+.form-control{
+  @media only screen and (max-width: 100em) {
+   width: 100%;
+   display: block;
+
+  }
+}
+
+
+.mediaqueryConvertForm {
+  @media only screen and (max-width: 100em) {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+
+  }
+}
+
+
+.mediaqueryConvertColumn {
+  @media only screen and (max-width: 50em) {
     display: flex;
     flex-direction: column;
   }
 }
 
-.mediaquery {
-  @media only screen and (max-width: 100em) {
-    text-align: center;
-  }
-}
+
 
 .mediaquery2 {
   @media only screen and (max-width: 100em) {
