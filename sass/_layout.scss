@@ -102,6 +102,10 @@ li {
 
 .checkbox {
   font-size: 1rem;
+  @media only screen and (max-width: 100em) {
+    font-size: 1.3rem;
+  }
+
 }
 
 .offerta-soggetta {
@@ -270,6 +274,5 @@ li {
   @media only screen and (max-width: 75em) {
     order: 2;
     padding: 1%;
-   
   }
 }

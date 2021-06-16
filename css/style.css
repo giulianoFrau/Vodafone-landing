@@ -109,6 +109,9 @@ li {
 
 .checkbox {
   font-size: 1rem; }
+  @media only screen and (max-width: 100em) {
+    .checkbox {
+      font-size: 1.3rem; } }
 
 .offerta-soggetta {
   text-align: center;
