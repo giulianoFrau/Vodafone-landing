@@ -198,7 +198,7 @@ li {
 //MEDIAQUERY
 
 .mediaqueryTextCenter {
-  @media only screen and (max-width: 50em) {
+  @media only screen and (max-width: 75em) {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -206,7 +206,7 @@ li {
 }
 
 .mediaqueryConvertForm {
-  @media only screen and (max-width: 50em) {
+  @media only screen and (max-width: 75em) {
     display: flex;
     flex-direction: column;
     align-items: center;

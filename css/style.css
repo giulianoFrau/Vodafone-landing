@@ -16,9 +16,6 @@ html {
   @media only screen and (max-width: 75em) {
     html {
       font-size: 50%; } }
-  @media only screen and (min-width: 112.5em) {
-    html {
-      font-size: 75%; } }
 
 body {
   font-family: 'Open Sans',sans-serif;
@@ -185,13 +182,13 @@ li {
   box-sizing: border-box;
   background-color: white; }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 75em) {
   .mediaqueryTextCenter {
     text-align: center;
     display: flex;
     justify-content: center; } }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 75em) {
   .mediaqueryConvertForm {
     display: flex;
     flex-direction: column;
