@@ -199,6 +199,9 @@ li {
   font-size: 1.3rem;
   font-weight: 400;
   color: #666; }
+  @media only screen and (max-width: 37.5em) {
+    .footer {
+      font-size: 1.6rem; } }
 
 .border {
   box-sizing: border-box;
