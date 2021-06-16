@@ -48,6 +48,8 @@ body {
   padding-top: 2%;
   padding-right: 5rem;
   background-image: url("../img/bg-desk.jpeg");
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 65vh; }
   @media only screen and (max-width: 85em) {
@@ -183,11 +185,13 @@ li {
   box-sizing: border-box;
   background-color: white; }
 
-@media only screen and (max-width: 100em) {
+@media only screen and (max-width: 50em) {
   .mediaqueryTextCenter {
-    text-align: center; } }
+    text-align: center;
+    display: flex;
+    justify-content: center; } }
 
-@media only screen and (max-width: 100em) {
+@media only screen and (max-width: 50em) {
   .mediaqueryConvertForm {
     display: flex;
     flex-direction: column;
@@ -227,7 +231,6 @@ li {
     .button {
       margin-left: 0;
       display: flex;
-      order: -1;
       margin-top: 1rem; } }
 
 .button-numero {
