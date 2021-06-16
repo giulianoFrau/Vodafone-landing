@@ -55,24 +55,24 @@ body {
   @media only screen and (max-width: 75em) {
     .background {
       background-image: url("../img/bg-mobile.jpeg"); } }
-  @media only screen and (max-width: 75em) {
-    .background {
-      height: 52vh; } }
-  @media only screen and (max-width: 56em) {
-    .background {
-      height: 50vh; } }
-  @media only screen and (max-width: 37.5em) {
-    .background {
-      height: 50vh; } }
-  @media only screen and (max-width: 27.5em) {
-    .background {
-      height: 60vh; } }
-  @media only screen and (max-width: 20.5em) {
-    .background {
-      height: 70vh; } }
   @media only screen and (max-width: 17em) {
     .background {
       height: 80vh; } }
+  @media only screen and (max-width: 20.5em) {
+    .background {
+      height: 70vh; } }
+  @media only screen and (max-width: 27.5em) {
+    .background {
+      height: 60vh; } }
+  @media only screen and (max-width: 37.5em) {
+    .background {
+      height: 50vh; } }
+  @media only screen and (max-width: 56em) {
+    .background {
+      height: 50vh; } }
+  @media only screen and (max-width: 75em) {
+    .background {
+      height: 52vh; } }
 
 .header__box {
   color: white;
@@ -143,7 +143,8 @@ li {
   height: 26rem;
   padding: 2%;
   border: 1px solid white;
-  background-color: white; }
+  background-color: white;
+  cursor: pointer; }
   @media only screen and (max-width: 75em) {
     .cards {
       width: 100%;
