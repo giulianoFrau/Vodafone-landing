@@ -198,9 +198,13 @@ li {
 
 .footer {
   padding: 1.3%;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #666;
+  @media only screen and (max-width: 100em) {
+    padding:5%;
+    font-weight: 400;
+  }
 }
 
 .border {
