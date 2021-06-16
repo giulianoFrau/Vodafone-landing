@@ -131,11 +131,17 @@ li {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.2;
+  @media only screen and (max-width: 100em) {
+    font-size: 3.4rem;
+  }
   &__over {
     color: #666;
     font-size: 1.9rem;
     font-weight: 400;
     margin-bottom: 2rem;
+    @media only screen and (max-width: 100em) {
+      font-size: 2.3rem;
+    }
   }
 }
 
@@ -187,6 +193,10 @@ li {
   &__over {
     font-size: 2.08rem;
     font-weight: 800;
+    @media only screen and (max-width: 80em) {
+      font-size: 3rem;
+      font-weight: 700;
+    }
   }
 }
 #checkbox2 {
@@ -198,13 +208,9 @@ li {
 
 .footer {
   padding: 1.3%;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 400;
   color: #666;
-  @media only screen and (max-width: 100em) {
-    padding:5%;
-    font-weight: 400;
-  }
 }
 
 .border {
