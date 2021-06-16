@@ -32,8 +32,25 @@
   @media only screen and (max-width: 85em) { //mediaquery sfondo bg
     background-image: url("../img/bg-mobile.jpeg");
   }
+
+  @media only screen and (max-width: 75em) {
+    height: 52vh;
+  }
   @media only screen and (max-width: 56em) {
     height: 50vh;
+  }
+  @media only screen and (max-width: 37.5em) {
+    height: 50vh;
+  }
+
+  @media only screen and (max-width: 27.5em) {
+    height: 60vh;
+  }
+  @media only screen and (max-width: 20.5em) {
+    height: 70vh;
+  }
+  @media only screen and (max-width: 17em) {
+    height: 80vh;
   }
 }
 
