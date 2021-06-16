@@ -221,13 +221,17 @@ li {
 .numero {
   height: 4.8rem !important;
   text-align: center;
-  font-size: 1.8rem !important;
+  font-size: 1.3rem !important;
   border-radius: 6px !important; }
+  @media only screen and (max-width: 75em) {
+    .numero {
+      font-size: 2rem !important; } }
 
 .button {
   height: 4.8rem !important;
+  width: 100% !important;
   color: white !important;
-  font-size: 1.8rem !important;
+  font-size: 1.4rem  !important;
   border-radius: 6px !important;
   font-weight: 600 !important;
   margin-left: -1.5rem; }
@@ -235,6 +239,9 @@ li {
     .button {
       margin-left: 0;
       display: flex; } }
+  @media only screen and (max-width: 75em) {
+    .button {
+      font-size: 2rem !important; } }
 
 .button-numero {
   background-color: #428600 !important;
