@@ -23,7 +23,9 @@ html{
         font-size: 50%;
       }
 
-   
+      @media only screen and (min-width: 100em) { //1800px
+        font-size: 75%;
+      }
 }
 
 
