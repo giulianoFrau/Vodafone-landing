@@ -27,9 +27,9 @@
   background-image: url("../img/bg-desk.jpeg");
 
   width: 100%;
-  height: 65vh;
+  height: 70vh;
 
-  @media only screen and (max-width: 85em) {
+  @media only screen and (max-width: 85em) { //mediaquery sfondo bg
     background-image: url("../img/bg-mobile.jpeg");
   }
   @media only screen and (max-width: 56em) {
@@ -109,7 +109,7 @@ li {
 }
 
 .cards {
-  @media only screen and (max-width: 100em) {
+  @media only screen and (max-width: 100em) { //mediaqueri cards
     width: 100%;
     height: auto;
     margin-top: 2rem;
@@ -175,6 +175,10 @@ li {
   background-color: white;
 }
 
+
+
+
+
 //MEDIAQUERY
 
 .mediaqueryTextCenter {
@@ -210,15 +214,6 @@ li {
     flex-direction: column;
   }
 }
-
-
-
-
-
-
-
-
-
 
 
 .querycards__icone {
