@@ -214,6 +214,18 @@ li {
     text-align: left;
     font-size: 2rem; } }
 
+@media only screen and (max-width: 75em) {
+  .order__input {
+    order: 2; } }
+
+@media only screen and (max-width: 75em) {
+  .order__button {
+    order: 1; } }
+
+@media only screen and (max-width: 75em) {
+  .order__span {
+    order: 3; } }
+
 .numero {
   height: 4.8rem !important;
   text-align: center;

@@ -234,3 +234,21 @@ li {
     font-size: 2rem;
   }
 }
+
+.order__input {
+  @media only screen and (max-width: 75em) {
+    order: 2;
+  }
+}
+
+.order__button {
+  @media only screen and (max-width: 75em) {
+    order: 1;
+  }
+}
+
+.order__span {
+  @media only screen and (max-width: 75em) {
+    order: 3;
+  }
+}
