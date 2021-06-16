@@ -64,6 +64,12 @@ body {
   @media only screen and (max-width: 30em) {
     .background {
       height: 60vh; } }
+  @media only screen and (max-width: 25em) {
+    .background {
+      height: 70vh; } }
+  @media only screen and (max-width: 20em) {
+    .background {
+      height: 80vh; } }
 
 .header__box {
   color: white;
