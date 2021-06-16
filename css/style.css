@@ -118,8 +118,14 @@ li {
     font-size: 1.4rem;
     color: #666;
     padding: 0.8rem; }
+    @media only screen and (max-width: 100em) {
+      .offerta-soggetta__testo {
+        font-size: 1.9rem; } }
   .offerta-soggetta__icona {
     height: 1.5rem; }
+    @media only screen and (max-width: 100em) {
+      .offerta-soggetta__icona {
+        height: 2rem; } }
 
 .dettagli {
   padding-top: 1.5rem;

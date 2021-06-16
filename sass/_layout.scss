@@ -108,14 +108,20 @@ li {
   text-align: center;
   background-color: #f1ece8;
   margin-top: -3rem;
-
+  
   &__testo {
     font-size: 1.4rem;
     color: #666;
     padding: 0.8rem;
+    @media only screen and (max-width: 100em) {
+      font-size: 1.9rem;
+    }
   }
   &__icona {
     height: 1.5rem;
+    @media only screen and (max-width: 100em) {
+      height: 2rem;
+    }
   }
 }
 
