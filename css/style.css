@@ -137,7 +137,7 @@ li {
   padding: 2%;
   border: 1px solid white;
   background-color: white; }
-  @media only screen and (max-width: 100em) {
+  @media only screen and (max-width: 60em) {
     .cards {
       width: 100%;
       height: auto;
@@ -145,7 +145,6 @@ li {
       border-radius: 5%;
       display: flex;
       flex-direction: row;
-      justify-content: center;
       align-content: flex-start; } }
   .cards__icone {
     width: 8rem;
@@ -199,7 +198,7 @@ li {
     flex-direction: column;
     align-items: center; } }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 60em) {
   .mediaqueryConvertColumn {
     display: flex;
     flex-direction: column; } }
