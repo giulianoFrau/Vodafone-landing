@@ -36,22 +36,18 @@
   }
   
   @media only screen and (max-width: 75em) {
-    height: 52vh;
-  }
-
-  @media only screen and (max-width: 56em) {
-    height: 55vh;
+    height: 450px;
   }
 
   @media only screen and (max-width: 30em) {
-    height: 60vh;
+    height: 500px;
   }
 
   @media only screen and (max-width: 25em) {
-    height: 70vh;
+    height: 530px;
   }
   @media only screen and (max-width: 20em) {
-    height: 80vh;
+    height: 600px;
   }
  
 }

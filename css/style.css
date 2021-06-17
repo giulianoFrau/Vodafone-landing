@@ -57,19 +57,16 @@ body {
       background-image: url("../img/bg-mobile.jpeg"); } }
   @media only screen and (max-width: 75em) {
     .background {
-      height: 52vh; } }
-  @media only screen and (max-width: 56em) {
-    .background {
-      height: 55vh; } }
+      height: 450px; } }
   @media only screen and (max-width: 30em) {
     .background {
-      height: 60vh; } }
+      height: 500px; } }
   @media only screen and (max-width: 25em) {
     .background {
-      height: 70vh; } }
+      height: 530px; } }
   @media only screen and (max-width: 20em) {
     .background {
-      height: 80vh; } }
+      height: 600px; } }
 
 .header__box {
   color: white;
