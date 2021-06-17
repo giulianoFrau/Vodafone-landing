@@ -244,6 +244,9 @@ li {
     order: 2;
     padding: 1%; } }
 
+.pro {
+  align-self: center; }
+
 .numero {
   height: 4.8rem !important;
   text-align: center;
