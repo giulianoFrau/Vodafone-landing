@@ -57,7 +57,7 @@ body {
       background-image: url("../img/bg-mobile.jpeg"); } }
   @media only screen and (max-width: 75em) {
     .background {
-      height: 50vh; } }
+      height: 52vh; } }
   @media only screen and (max-width: 56em) {
     .background {
       height: 55vh; } }
