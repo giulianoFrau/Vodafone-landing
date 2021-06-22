@@ -189,6 +189,9 @@ li {
   width: 100%;
   background-color: #3f0205;
   color: white;
+  @media only screen and (max-width: 56.26em) {
+    padding: 7%;
+  }
 
   &__titolo,
   &__over {
@@ -196,7 +199,7 @@ li {
     font-weight: 800;
     @media only screen and (max-width: 80em) {
       font-size: 3rem;
-      font-weight: 700;
+      
     }
   }
 }
