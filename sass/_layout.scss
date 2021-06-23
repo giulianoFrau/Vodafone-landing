@@ -235,7 +235,13 @@ li {
   }
 }
 
-
+.mediaqueryConvertColumn {
+  @media only screen and (max-width: 56.26em) {
+    
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .querycards__icone {
   @media only screen and (max-width: 100em) {
@@ -271,7 +277,6 @@ li {
   }
 }
 
-
 .pro{
   align-self: center;
 }
@@ -279,20 +284,7 @@ li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*  css form prova box in riga
 .aiuto2 {
   padding: 2%;
   margin: 2rem auto;
@@ -304,6 +296,7 @@ li {
     padding: 7%;
     display: flex;
     flex-direction: column;
+    width: 100%;
     
   }
 
@@ -313,11 +306,9 @@ li {
     font-size:3rem;
     font-weight: 400;
     @media only screen and (max-width: 80em) {
-      
       font-size: 3rem;
-      
     }
   }
 }
 
-
+*/
