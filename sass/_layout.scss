@@ -236,12 +236,6 @@ li {
 }
 
 
-.mediaqueryConvertColumn {
-  @media only screen and (max-width: 56.26em) {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 .querycards__icone {
   @media only screen and (max-width: 100em) {
@@ -281,3 +275,49 @@ li {
 .pro{
   align-self: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aiuto2 {
+  padding: 2%;
+  margin: 2rem auto;
+  height: auto;
+  width: 60%;
+  background-color: #3f0205;
+  color: white;
+  @media only screen and (max-width: 56.26em) {
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  &__titolo,
+  &__over {
+    text-align: center;
+    font-size:3rem;
+    font-weight: 400;
+    @media only screen and (max-width: 80em) {
+      
+      font-size: 3rem;
+      
+    }
+  }
+}
+
+

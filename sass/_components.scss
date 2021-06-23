@@ -16,7 +16,7 @@
   font-size: 1.4rem  !important;
   border-radius: 6px !important;
   font-weight: 600 !important;
-  margin-left: -1.5rem;
+  margin-left: -1.5rem; //da togliere con form in colonna
   @media only screen and (max-width: 100em) {
     margin-left: 0;
     display: flex;
