@@ -105,10 +105,15 @@ li {
   margin-bottom: 0.8rem; }
 
 .checkbox {
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin-left: 5px; }
   @media only screen and (max-width: 100em) {
     .checkbox {
       font-size: 1.3rem; } }
+
+.prova {
+  display: flex;
+  align-items: flex-start; }
 
 .offerta-soggetta {
   text-align: center;
