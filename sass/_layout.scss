@@ -97,11 +97,10 @@ li {
 }
 
 .checkbox {
-  font-size: 1rem;
+  font-size: .9rem;
   margin-left: 5px;
   @media only screen and (max-width: 100em) {
     font-size: 1.3rem;
-
   }
 
 }
@@ -288,8 +287,25 @@ li {
   align-self: center;
 }
 
+.linkPrivacy{
+ text-decoration: none;
+ color:white;
+ 
+ &:hover{
+  text-decoration: none; 
+  color:white;
+  cursor: pointer;
+ }
+}
 
 
+.hidden{
+  display: none;
+}
+
+.hidden2{
+  display: none;
+}
 
 /*  css form prova box in riga
 .aiuto2 {
