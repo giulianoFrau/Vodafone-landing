@@ -1,38 +1,35 @@
-.numero {
-  height: 4.8rem !important;
-  text-align: center;
-  font-size: 1.3rem !important;
-  border-radius: 6px !important;
-
+.form {
+  gap: 3rem;
+  font-size: 1.5rem;
   @media only screen and (max-width: 75em) {
-    font-size: 2rem !important;
-    }
-}
-
-.button {
-  height: 4.8rem !important;
-  width: 100% !important;
-  color: white !important;
-  font-size: 1.4rem  !important;
-  border-radius: 6px !important;
-  font-weight: 600 !important;
-  margin-left: -1.5rem; //da togliere con form in colonna
-  @media only screen and (max-width: 100em) {
-    margin-left: 0;
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  @media only screen and (max-width: 75em) {
-  font-size: 2rem !important;
+  &__input {
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
   }
-}
-
-.button-numero {
-  background-color: #428600 !important;
-  border-color: #428600 !important;
+  &__button {
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #428600;
+    border: 1px solid #428600;
+    color: white;
+  }
+  &__check {
+    font-size: 1rem;
+    @media only screen and (max-width: 75em) {
+      width: 30px;
+    }
+  }
 }
 
 .button-numero2 {
-  background-color: #fdca2e !important;
-  border-color: #fdca2e !important;
+  background-color: #fdca2e;
+  border-color: #fdca2e;
 }

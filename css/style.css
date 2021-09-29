@@ -26,18 +26,6 @@ body {
   line-height: 1.6rem;
   color: #666; }
 
-.margin-small {
-  margin-top: 2rem; }
-
-.margin-extra-small {
-  margin-top: 1rem; }
-
-.margin-bottom {
-  margin-bottom: 7rem; }
-
-.padding {
-  padding: 1rem; }
-
 .logo-vodafone {
   height: 3.5rem; }
 
@@ -45,51 +33,34 @@ body {
   height: 3.1rem; }
 
 .background {
-  padding-top: 2%;
-  padding-right: 5rem;
   background-image: url("../img/bg-desk.jpeg");
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 600px; }
-  @media only screen and (max-width: 56.26em) {
-    .background {
-      background-image: url("../img/bg-mobile.jpeg"); } }
   @media only screen and (max-width: 75em) {
     .background {
-      height: 450px; } }
-  @media only screen and (max-width: 30em) {
-    .background {
-      height: 500px; } }
-  @media only screen and (max-width: 25em) {
-    .background {
-      height: 530px; } }
-  @media only screen and (max-width: 20em) {
-    .background {
-      height: 600px; } }
+      background-image: url("../img/bg-mobile.jpeg");
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 2rem; } }
 
-.header__box {
+.boxHead {
   color: white;
-  padding-left: 5rem;
-  width: 60%; }
-  @media only screen and (max-width: 56.26em) {
-    .header__box {
-      width: 100%;
-      margin-top: 2rem; } }
-  .header__box__scritta1 {
-    font-size: 2.5rem;
-    text-transform: uppercase; }
-    .header__box__scritta1__sub {
-      margin-top: -1.5rem;
-      font-size: 3rem;
-      font-weight: 800; }
-  .header__box__scritta2 {
-    margin-top: 2rem;
-    font-size: 2.5rem;
-    color: white;
-    text-transform: none; }
-    .header__box__scritta2__p {
-      margin-top: -2rem; }
+  padding: 3rem;
+  width: 650px; }
+  .boxHead__title {
+    font-weight: 100; }
+  .boxHead__subtitle {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .boxHead__span {
+    font-size: 2rem;
+    font-weight: 400; }
 
 .fibra {
   height: 3rem; }
@@ -105,7 +76,7 @@ li {
   margin-bottom: 0.8rem; }
 
 .checkbox {
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-left: 5px; }
   @media only screen and (max-width: 100em) {
     .checkbox {
@@ -296,35 +267,32 @@ li {
 }
 
 */
-.numero {
-  height: 4.8rem !important;
-  text-align: center;
-  font-size: 1.3rem !important;
-  border-radius: 6px !important; }
+.form {
+  gap: 3rem;
+  font-size: 1.5rem; }
   @media only screen and (max-width: 75em) {
-    .numero {
-      font-size: 2rem !important; } }
-
-.button {
-  height: 4.8rem !important;
-  width: 100% !important;
-  color: white !important;
-  font-size: 1.4rem  !important;
-  border-radius: 6px !important;
-  font-weight: 600 !important;
-  margin-left: -1.5rem; }
-  @media only screen and (max-width: 100em) {
-    .button {
-      margin-left: 0;
-      display: flex; } }
-  @media only screen and (max-width: 75em) {
-    .button {
-      font-size: 2rem !important; } }
-
-.button-numero {
-  background-color: #428600 !important;
-  border-color: #428600 !important; }
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+  .form__input {
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white; }
+  .form__button {
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #428600;
+    border: 1px solid #428600;
+    color: white; }
+  .form__check {
+    font-size: 1rem; }
+    @media only screen and (max-width: 75em) {
+      .form__check {
+        width: 30px; } }
 
 .button-numero2 {
-  background-color: #fdca2e !important;
-  border-color: #fdca2e !important; }
+  background-color: #fdca2e;
+  border-color: #fdca2e; }
