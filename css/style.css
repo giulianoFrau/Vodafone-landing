@@ -12,7 +12,7 @@ html {
   font-size: 62.5%; }
   @media only screen and (max-width: 56.26em) {
     html {
-      font-size: 50%; } }
+      font-size: 42%; } }
   @media only screen and (min-width: 100em) {
     html {
       font-size: 75%; } }
@@ -43,7 +43,8 @@ body {
       justify-content: center;
       align-items: center;
       text-align: center;
-      font-size: 2rem; } }
+      font-size: 2rem;
+      height: 500px; } }
 
 .boxHead {
   color: white;
@@ -85,13 +86,11 @@ li {
       font-size: 1.3rem; } }
 
 .offerta-soggetta {
-  text-align: center;
   background-color: #f1ece8;
-  margin-top: -3rem; }
+  font-size: 2.2rem; }
   .offerta-soggetta__testo {
     font-size: 1.4rem;
-    color: #666;
-    padding: 0.8rem; }
+    color: #666; }
     @media only screen and (max-width: 100em) {
       .offerta-soggetta__testo {
         font-size: 1.9rem; } }
@@ -101,23 +100,20 @@ li {
       .offerta-soggetta__icona {
         height: 2rem; } }
 
-.dettagli {
-  padding-top: 1.5rem;
+.details {
   font-size: 2.8rem;
   text-transform: uppercase;
   font-weight: 800;
-  line-height: 1.2;
   color: #3c3c3c; }
   @media only screen and (max-width: 100em) {
-    .dettagli {
+    .details {
       font-size: 3.4rem; } }
-  .dettagli__over {
+  .details__sub {
     color: #666;
     font-size: 1.9rem;
-    font-weight: 400;
-    margin-bottom: 2rem; }
+    font-weight: 400; }
     @media only screen and (max-width: 100em) {
-      .dettagli__over {
+      .details__sub {
         font-size: 2.3rem; } }
 
 .cards {
@@ -132,21 +128,36 @@ li {
   @media only screen and (max-width: 56.26em) {
     .cards {
       width: 100%;
-      height: auto;
-      margin-top: 2rem;
-      border-radius: 5%;
-      display: flex;
-      flex-direction: row;
-      align-content: flex-start; } }
+      margin-bottom: 2rem;
+      height: 20%; } }
   .cards__icone {
-    width: 8rem;
-    padding: 5%; }
+    width: 6rem; }
+    @media only screen and (max-width: 56.26em) {
+      .cards__icone {
+        width: 8rem;
+        height: 8rem; } }
   .cards__titolo {
     text-transform: uppercase;
     font-size: 2rem;
-    font-weight: 800; }
+    font-weight: 800;
+    color: #3c3c3c; }
   .cards__testo {
     font-size: 1.7rem; }
+
+@media only screen and (max-width: 56.26em) {
+  .mediaqueryConvertColumn {
+    flex-direction: column; } }
+
+@media only screen and (max-width: 56.26em) {
+  .mediaQueryInsideCard {
+    display: flex;
+    flex-direction: row; } }
+
+@media only screen and (max-width: 56.26em) {
+  .mediaQueryInsideCard2 {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column; } }
 
 .aiuto {
   padding: 2%;
@@ -165,12 +176,6 @@ li {
       .aiuto__titolo, .aiuto__over {
         font-size: 3rem; } }
 
-#checkbox2 {
-  color: #ffffff;
-  text-align: left;
-  margin-left: 5px;
-  font-size: 1.5rem; }
-
 .footer {
   padding: 1.3%;
   font-size: 1.3rem;
@@ -180,91 +185,6 @@ li {
     .footer {
       font-size: 1.6rem; } }
 
-.border {
-  box-sizing: border-box;
-  background-color: white; }
-
-@media only screen and (max-width: 56.26em) {
-  .mediaqueryTextCenter {
-    text-align: center;
-    display: flex;
-    justify-content: center; } }
-
-@media only screen and (max-width: 56.26em) {
-  .mediaqueryConvertColumn {
-    display: flex;
-    flex-direction: column; } }
-
-@media only screen and (max-width: 100em) {
-  .querycards__icone {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 20%; } }
-
-@media only screen and (max-width: 100em) {
-  .querycards__align {
-    text-align: left;
-    font-size: 2rem; } }
-
-@media only screen and (max-width: 75em) {
-  .order__input {
-    order: 1; } }
-
-@media only screen and (max-width: 75em) {
-  .order__button {
-    order: 3; } }
-
-@media only screen and (max-width: 75em) {
-  .order__span {
-    order: 2;
-    padding: 1%; } }
-
-.pro {
-  align-self: center; }
-
-.linkPrivacy {
-  text-decoration: none;
-  color: white; }
-  .linkPrivacy:hover {
-    text-decoration: none;
-    color: white;
-    cursor: pointer; }
-
-.hidden {
-  display: none; }
-
-.hidden2 {
-  display: none; }
-
-/*  css form prova box in riga
-.aiuto2 {
-  padding: 2%;
-  margin: 2rem auto;
-  height: auto;
-  width: 60%;
-  background-color: #3f0205;
-  color: white;
-  @media only screen and (max-width: 56.26em) {
-    padding: 7%;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
-  }
-
-  &__titolo,
-  &__over {
-    text-align: center;
-    font-size:3rem;
-    font-weight: 400;
-    @media only screen and (max-width: 80em) {
-      font-size: 3rem;
-    }
-  }
-}
-
-*/
 .form {
   gap: 3rem;
   font-size: 1.5rem; }
