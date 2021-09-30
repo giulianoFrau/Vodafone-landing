@@ -14,6 +14,7 @@
 
 <body>
 
+    <!-- HEADER -->
     <div class="container py-3">
         <div class="d-flex justify-content-between">
             <img src="img/logo_vodafone.png" alt="logo1" class="logo-vodafone">
@@ -24,6 +25,7 @@
         </div>
     </div>
 
+    <!-- HERO -->
     <section class="background d-flex align-items-center flex-column  ">
         <div class="boxHead">
             <h1 class="boxHead__title">SOLO ONLINE</h1>
@@ -52,54 +54,62 @@
         </div>
     </section>
 
-
-    <section class="offerta-soggetta">
+    <!-- SUB-HEADER -->
+    <section class="offerta-soggetta d-flex justify-content-center py-1">
         <p class="offerta-soggetta__testo">Offerta disponibile nelle città FTTH <img src="img/fibra.svg" alt="img"
                 class="offerta-soggetta__icona"> e soggetta a limitazioni tecniche e geografiche.</p>
     </section>
 
-    <div class="container">
-        <section class="d-flex flex-column align-items-center  mediaqueryTextCenter">
-            <h2 class="dettagli">
-                DETTAGLI DELL’OFFERTA VODAFONE CASA
+    <!-- CENTRAL CARD -->
+    <div class="container py-5">
+        <section class="d-flex flex-column text-center">
+            <h2 class="details">
+                dettagli dell'offerta vodafone casa
             </h2>
-            <h4 class="dettagli__over">
+            <h4 class="details__sub">
                 Approfitta subito delle imperdibili offerte Vodafone: Fibra Ultraveloce fino a 2.5 Gigabit/s e modem
             </h4>
-            <div class="d-flex justify-content-around mediaqueryConvertColumn ">
-                <div class="cards ">
-                    <img src="img/icon-phone.png" class="cards__icone querycards__icone">
-                    <div class="pro">
-                        <h2 class="cards__titolo querycards__align">chiamate</h2>
-                        <p class="cards__testo querycards__align">Chiamate verso i fissi e mobili nazionali illimitate
-                        </p>
+            <div class="d-flex justify-content-around text-left pt-5 mediaqueryConvertColumn">
+                <div class="cards d-flex flex-column justify-content-start align-items-start">
+                    <div class="mediaQueryInsideCard">
+                        <img src="img/icon-phone.png" class="cards__icone mb-3">
+                        <div class="mediaQueryInsideCard2">
+                            <h2 class="cards__titolo">chiamate</h2>
+                            <p class="cards__testo">Chiamate verso i fissi e mobili nazionali illimitate
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="cards">
-                    <img src="img/icon-modem.png" class="cards__icone querycards__icone">
-                    <div class="pro">
-                        <h2 class="cards__titolo querycards__align">vodafone wi-fi 6 station</h2>
-                        <p class="cards__testo querycards__align ">Con una miglior velocità
-                            e stabilità di collegamento,
-                            migliora la copertura in tutta la casa.</p>
+                <div class="cards d-flex flex-column justify-content-start align-items-start">
+                    <div class="mediaQueryInsideCard">
+                        <img src="img/icon-modem.png" class="cards__icone mb-3">
+                        <div class="mediaQueryInsideCard2">
+                            <h2 class="cards__titolo">vodafone wi-fi 6 station</h2>
+                            <p class="cards__testo">Con una miglior velocità
+                                e stabilità di collegamento,
+                                migliora la copertura in tutta la casa.
+                            </p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="cards">
-                    <img src="img/icon-click.png" class=" querycards__icone  cards__icone">
-                    <div class="pro">
-                        <h2 class="cards__titolo querycards__align">senza vincoli e costi di attivazione</h2>
-                        <p class="cards__testo querycards__align">L’offerta non prevede costi di attivazione, disdici
-                            quando vuoi!</p>
+                <div class="cards d-flex flex-column justify-content-start align-items-start">
+                    <div class="mediaQueryInsideCard">
+                        <img src="img/icon-click.png" class="cards__icone mb-3">
+                        <div class="mediaQueryInsideCard2">
+                            <h2 class="cards__titolo">senza vincoli e costi di attivazione</h2>
+                            <p class="cards__testo">L’offerta non prevede costi di attivazione, disdici
+                                quando vuoi!
+                            </p>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </section>
     </div>
 
-    <section class="d-flex flex-column align-items-center aiuto mediaqueryTextCenter">
-        <h2 class="aiuto__titolo">
+    <!-- HELP FORM -->
+    <section class="d-flex flex-column align-items-center aiuto mediaqueryTextCenter ">
+        <h2 class="aiuto__titolo ">
             Hai bisogno di aiuto?
         </h2>
         <h4 class="aiuto__over">
@@ -128,38 +138,7 @@
         </form>
     </section>
 
-
-
-    <!-- IMPOSTAZIONE FORM COME TIM:ORIENTAMENTO BOX RIGA E FORM IN COLONNA..SOPRA INVECE FORM IN COLONNA E FORM IN "RIGA GLI INPUT" E COLONNA LA CHECKBOX  
-<section class="d-flex align-items-center aiuto2 ">    
-        <h4 class="aiuto2__over">
-            Per te il massimo della velocità alla tariffa migliore
-        </h4>
-        <form>
-            <div class="row d-flex flex-column align-items-center">
-                <div class="col-9 order__input">
-                    <input type="text" class="form-control numero" placeholder="Inserisci il numero di cellulare">
-                </div>
-
-                <div class="col-9 margin-extra-small order__span">
-                    <span class="checkbox">
-                        <input type="checkbox">
-                        Richiedendo il servizio confermo di aver letto e accettato i Termini e Condizioni del Sito e di
-                        aver preso visione dell'Informativa sul trattamento dei dati personali. Clicca qui per gestire i
-                        consensi.
-                    </span>
-                </div>
-
-                <div class="col-9 order__button">
-                    <input type="button" class="form-control button-numero2 button" value="TI CHIAMIAMO NOI">
-                </div>
-           
-             
-            </div>
-        </form>
-    </section> -->
-
-
+    <!-- FOOTER -->
     <footer class="d-flex justify-content-center footer">
         <p>PREZZOGIUSTO è un servizio SMART CONTACT SRL P.IVA 03692630928</p>
     </footer>
